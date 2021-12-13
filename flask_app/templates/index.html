@@ -1,0 +1,42 @@
+
+<html>
+    <head>국내주식,오늘의 업종별 등락률은?(종가기준, 22개 업종)</head>
+        <body> 
+            <form action = "/" method = "post">
+                <p>코로나 일일 확진자(명) <input type = "number" name = "corona" /></p>
+                <p>코로나 전일대비(명) <input type = "number" name = "corona_c" /></p>
+                <p>환율(원) <input type="number" step=0.01 name = "exch" /></p>
+                <p>환율전일대비(원) <input type="number" step=0.01 name = "exch_c" /></p>
+                <p>유가,WTI(달러) <input type="number" step=0.01 name = "oil" /></p>
+                <p>유가전일대비(달러) <input type="number" step=0.01 name = "oil_c" /></p>
+                <p>미국 S&P 500 <input type="number" step=0.01 name = "us" /></p>
+                <p>미국 등락률(%) <input type ="number" step=0.01 name = "us_c" /></p>
+                
+                <p>제출하기 <input type = "submit" value = "submit" /></p>
+                <p>예측 결과</p>
+                <p>음식료품 업종은 {{food}}%,</p>
+                <p>섬유의복 업종은 {{clo}}%,</p>
+                <p>종이목재 업종은 {{wood}}%,</p>
+                <p>화학 업종은 {{che}}%,</p>
+                <p>의약품 업종은 {{med}}%,</p>
+                <p>비금속광물 업종은 {{nonmetal}}%,</p>
+                <p>철강금속 업종은 {{ste}}%,</p>
+                <p>기계 업종은 {{mac}}%,</p>
+                <p>전기전자 업종은 {{ele}}%,</p>
+                <p>의료정밀 업종은 {{prec}}%,</p>
+                <p>운수장비 업종은 {{trans}}%,</p>
+                <p>유통 업종은 {{cir}}%,</p>
+                <p>전기가스 업종은 {{gas}}%,</p>
+                <p>건설 업종은 {{con}}%,</p>
+                <p>운수창고 업종은 {{ware}}%,</p>
+                <p>통신 업종은 {{tel}}%,</p>
+                <p>금융 업종은 {{fin}}%,</p>
+                <p>은행 업종은 {{bank}}%,</p>
+                <p>증권 업종은 {{sto}}%,</p>
+                <p>보험 업종은 {{ins}}%,</p>
+                <p>서비스 업종은 {{ser}}%,</p>
+                <p>제조 업종은 {{man}}% 변화할 것으로 예상한다.</p>
+            </form>
+
+        </body>
+</html>
